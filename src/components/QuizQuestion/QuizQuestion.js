@@ -32,7 +32,7 @@ const QuizQuestion = ({quiz,handleChange}) => {
                      onClick={(e)=>handleChange(e,id)}
                     //  onChange={(e)=>handleChange(e)}
                      />{option}
-                    <ToastContainer />
+                    <ToastContainer/>
                         </div>
                        )
                     })
