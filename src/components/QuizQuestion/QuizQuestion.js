@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const QuizQuestion = ({quiz,handleChange}) => {
 
@@ -15,7 +17,7 @@ const QuizQuestion = ({quiz,handleChange}) => {
         <div className='col'>
             <div className="card" style={{}}>
               {/* <h6>{question.replace(/[^a-zA-Z ]/g, "")}</h6> */}
-              <h5 className='p-2 fw-bold'>{question}</h5>
+              <h6 className='p-2 fw-bold'>{question}</h6>
             <div className="card-questions p-3">
                 {
                     options.map((option)=>{
@@ -30,11 +32,12 @@ const QuizQuestion = ({quiz,handleChange}) => {
                      onClick={(e)=>handleChange(e,id)}
                     //  onChange={(e)=>handleChange(e)}
                      />{option}
- 
+                    <ToastContainer />
                         </div>
                        )
                     })
                 }
+                 
             </div>
             </div>
         </div>
