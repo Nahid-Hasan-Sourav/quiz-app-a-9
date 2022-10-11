@@ -14,7 +14,7 @@ const Header = () => {
                       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto me-5">
                     
-                          <NavLink className="nav-link fw-bold text-white fs-5" to='/topics'>Topics</NavLink>
+                          <NavLink className="nav-link fw-bold text-white fs-5" to='/Home'>Home</NavLink>
                           <NavLink className="nav-link fw-bold text-white fs-5" to='/statistics'>Statistics</NavLink>
                           <NavLink className="nav-link fw-bold text-white fs-5" to='/blog'>Blog</NavLink>
                         </div>
