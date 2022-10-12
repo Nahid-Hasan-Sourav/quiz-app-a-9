@@ -6,7 +6,7 @@ const CourseCategory = ({data}) => {
     // console.log("Course ",data)
     return (
         <div className='col '>
-            <div className="card bg-light ">
+            <div className="card bg-light shadow-md">
                 <img src={logo} alt='...!!'/>
                 <div className="card-details card-footer ">
 
