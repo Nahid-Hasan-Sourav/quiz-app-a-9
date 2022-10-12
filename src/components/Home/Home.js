@@ -14,7 +14,7 @@ const Home = () => {
       <div className="row row-cols-lg-2 row-cols-1 header-cover bg-light">
         <div className="col p-3">
           <div className="header-text h-100 d-flex flex-column align-items-center justify-content-center">
-            <h3 className="fw-bold text-primary">
+            <h3 className="fw-bold text-primary text-center">
               Organize Live Quiz For Your Skill Test
             </h3>
             <p className="text-center">
