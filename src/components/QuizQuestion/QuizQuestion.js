@@ -26,9 +26,9 @@ const QuizQuestion = ({quiz,handleChange,index}) => {
 
     return (
         <div className='col'>
-            <div className="card" style={{height:'450px'}}>
+            <div className="card" style={{height:'500px'}}>
               
-             <div className="card-header bg-light" style={{height:'200px'}}>
+             <div className="card-header bg-light" style={{height:'240px'}}>
              <h5><span className='mx-1 my-3 d-inline-block bg-success px-2 text-white py-1 rounded'>
                 Question :  {index===0 ? index=1 :index+1}</span></h5>
 
