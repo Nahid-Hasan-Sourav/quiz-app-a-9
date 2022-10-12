@@ -26,15 +26,15 @@ const QuizQuestion = ({quiz,handleChange,index}) => {
 
     return (
         <div className='col'>
-            <div className="card" style={{height:'380px'}}>
+            <div className="card" style={{height:'450px'}}>
               
-             <div className="card-header bg-light" style={{height:'145px'}}>
-             <h5><span className='mx-1 my-2 d-inline-block bg-success px-2 text-white py-1 rounded'>
-                Question :  {index+1}</span></h5>
+             <div className="card-header bg-light" style={{height:'200px'}}>
+             <h5><span className='mx-1 my-3 d-inline-block bg-success px-2 text-white py-1 rounded'>
+                Question :  {index===0 ? index=1 :index+1}</span></h5>
 
             
               <div className="question d-flex justify-content-between h-50 align-items-center py-1">
-              <h6 className='p-2  my-1 fw-bold'> {question.slice(3,question.length-4)}</h6>
+              <h6 className='p-2  my-2 fw-bold'> {question.slice(3,question.length-4)}</h6>
               <h5 > <EyeIcon onClick={(e)=>setCorrectAnswer(e,correctAnswer)} className="" style={{height:'25px',cursor:'pointer'}}/></h5> 
             
              </div>
