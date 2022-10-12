@@ -29,7 +29,7 @@ const Statistics = () => {
          
 
        
-       <ResponsiveContainer width="70%" height={400} className="mx-auto">
+       <ResponsiveContainer width='50%' height={400} className="mx-auto bar">
         <BarChart
                 
                  height={300}

@@ -1,5 +1,33 @@
-/* @media (max-width:768px){
-    .res{
-        width: 100%;
-    }
-} */
+@media (max-width:575px){
+   .bar{
+    width: 100% !important;
+   }
+}
+
+
+@media (min-width:576px) and (max-width:768px){
+    .bar{
+        width: 100% !important;
+       }
+}
+
+
+@media(min-width:769px) and (max-width:992px){
+    .bar{
+        width:80% !important;
+       }
+}
+
+
+@media (min-width:993px)and (max-width: 1199.98px) {
+    .bar{
+        width:60% !important;
+       }
+}
+
+
+@media (min-width:1200px) and (max-width: 1399.98px) {
+    .bar{
+        width:50%;
+       }
+}
