@@ -51,7 +51,7 @@ const QuizQuestion = ({quiz,handleChange,index}) => {
                     <div class="form-check my-1   my-3">
                      <input className="form-check-input" 
                      type="radio" 
-                     name="flexRadioDefault" 
+                     name={id}
                      id="flexRadioDefault2"  
                      value={option}
                      
