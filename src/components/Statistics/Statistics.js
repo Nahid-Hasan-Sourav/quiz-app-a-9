@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { Bar, BarChart, Tooltip, XAxis, YAxis,CartesianGrid,ResponsiveContainer } from 'recharts';
+import './Statistics.css'
 
 const Statistics = () => {
     const [topics,setTopics]=useState();
@@ -27,9 +28,10 @@ const Statistics = () => {
         <h5 className='bg-success mx-auto px-2 py-3 text-white my-4 text-center rounded' style={{width:'190px'}}>QUIZ STATISTICS</h5>
          
 
-        <ResponsiveContainer width="95%" height={400}>
+       
+       <ResponsiveContainer width="70%" height={400} className="mx-auto">
         <BarChart
-                 width={400}
+                
                  height={300}
                  data={topics}
                  margin={{
@@ -48,6 +50,7 @@ const Statistics = () => {
      
       </BarChart>
         </ResponsiveContainer>
+       
               
       
                
